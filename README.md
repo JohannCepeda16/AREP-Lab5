@@ -48,6 +48,14 @@ Diagrama
 
 ![Diagrama de seguridad](/resources/Diagram.png)
 
+## Explique como escalaría su arquitectura de seguridad para incorporar nuevos servicios
+
+Si queremos agregar nuevos servicios que mejoren la seguridad de nuestra aplicacion. Nos podemos basar en un sistema de roles. Suponiendo que nuestra aplicacion es accedida por muchos usuarios al mismo tiempo, pero con diferente rol. Esto quiere decir que algunos usuarios no deberian tener acceso a los servicios que podrian tener un rol de mayor rango. Como un administrador.
+
+Entonces nos quedaria algo asi
+
+![Role Diagram](/resources/RoleDiagram.PNG)
+
 ## Programa hecho con
 
 * [Maven](https://maven.apache.org/) - Dependency Management
